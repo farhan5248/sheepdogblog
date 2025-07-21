@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Deming Driven Testing
+title: Sheep Dog Blog
 permalink: /
 ---
 
