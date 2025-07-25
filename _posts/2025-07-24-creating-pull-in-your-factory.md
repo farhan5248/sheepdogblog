@@ -137,7 +137,7 @@ Since inventory is bad, an inventory management system is good to manage a pull 
 Instead of hinges, I was working with test cases/stories/scenarios.
 As explained in the [just in time][8] section, the testers aimed to produce enough test cases for a developer so they could code for at least a day.
 They had to make enough test cases for the day and even the next day in case something came up and they couldn't work that day etc.
-We didn't make Kanban cards for each daily chunk of test cases.
+We didn't make [Kanban cards][9] for each daily chunk of test cases.
 Instead the bucket/bin was the git commit. 
 I taught the testers to amend their git commits and only when they had the next batch of tests, they would push it.
 I was aiming for Continuous Delivery and Trunk Based development
@@ -168,14 +168,14 @@ I wanted the developer and tester to learn to synchronise (reduce variation/fluc
 
 TO BE CONTINUED
 
-[1]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muda)
-[2]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/SPC)
-[3]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Standardized%20Work)
-[4]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Gemba)
-[5]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kaizen) 
-[6]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Jidoka)
-[7]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Poka%20Yoke)
-[8]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Just%20In%20Time)
-[9]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Heijunka)
-[10]: (/demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kanban)
+[1]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muda
+[2]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/SPC
+[3]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Standardized%20Work
+[4]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Gemba
+[5]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kaizen
+[6]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Jidoka
+[7]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Poka%20Yoke
+[8]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Just%20In%20Time
+[9]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kanban
+[10]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Heijunka
 
