@@ -29,30 +29,21 @@ The way it's seen is overburden causes unevenness which in turn causes waste.
 Eliminating waste needs unevenness addressed which needs overburden addressed.
 
 Waste is easy to see, you only need to observe a process once.
-Fluctuations are harder, you need to observe the process at least once.
+Fluctuations (unevenness) are harder, you need to observe the process at least once.
 The people who know the fluctuations best are the ones on the shop-floor.
 
 > **NOTE:**  
-> I mapped the 8 wastes as so. More details on [the wastes are here][1]:
-> 1. transport, manual tester to automation guy.
-> 2. inventory, too many unexecuted tests or unvalidated automation tests.
-> 3. waiting, waiting for test automation to be created or run, waiting for devs to fix bugs.
-> 4. motion, unnecessary clicking like with doc to dnp which I wrapped with maven.
-> 5. overproduction, unnecessary test cases to meet a metric of x test cases for y days of coding.
-> 6. overprocessing, unnecessary steps in the test case or over complicated test setups or doing e2e testing when a unit test is good enough.
-> 7. defects, test case writing defects.
-> 8. skills, testers who were able to learn to code like Pratik but whose time was wasted doing manual testing.
 >
-> To me, studying the fluctuations was where [SPC][2] came in. I wanted stuff under statistical control.
+> Overburden was caused by having too many specialists and not enough generalists or full-stack testers.
+> This caused fluctuations in people's utilization in the form of the famine/feast cycles that sometimes appeared.
+> The 8 wastes that resulted are [described here][1]:
+>
+> Studying the fluctuations was where [SPC][2] came in; I wanted the process of inspection under statistical control. 
 > I wanted to reduce the occurrence of last minute high priority defects which have very little time to be fixed by devs and re-tested by my team.
-> Another fluctuation was people's utilization. I didn't want to have 100% but I did want to avoid the famine/feast cycles that sometimes appeared.
-> Overburden on folks with too much work was reduced with standards so we could swarm to solve problems, having full-stack testers or generalists instead of everyone being a specialist only and automation of test execution.
-> For example non-SME would use Robot-Framework to automate the tasks for a SME if the non-SME was in a famine of work.
 
 # Stabilizing Fluctuations
 
-The first goal is to stabilize production.
-There's always going to be fluctuations, but we want to have less. 
+The first goal is to stabilize production by reducing fluctuations.
 Questions to ask are:
 1. Are the machines stable?
 2. Are work-standards good? Do they exist? Do people know to use them? 
@@ -61,7 +52,7 @@ Sometimes there's so much fire-fighting.
 It's like you can't stop to sharpen the axe because you have so many trees to fell.
 If you're in a burning house, having a fire-fighter is nice but even better is to not have a burning house.
 Rewarding only the fire-fighters can create career arsonists.
-Reward the 
+Reward the fire-safety inspector as well.
 
 Overburden is a lack of safety.
 First identify where are things going wrong, you'll need some sort of data
@@ -76,25 +67,21 @@ You can actually notice but it doesn't mean you can make the connection about wh
 Management needs to get rid of the cause.
 
 > **Note:**  
-> [tree](https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white/)  
-> How to free-up the time of an overburdened tester who's super busy. One way is by having standards.  
-> All the testers didn't write test cases in a way that another tester could understand and execute their tests.  
-> If I wanted them to be able to swarm to reduce the load on one tester, I needed those who were free to be able to read the tests.  
-> This is where the ubiquitous language came in; it was to [standardize work][3].  
-> One challenge in getting folks to adopt a standard that requires so much details is fear.  
-> I think folks kept the test cases light on details to protect their job-security.  
-> That is, if nobody can read their work, then nobody can replace them.  
-> By showing the team that the test cases written in the DSL can be automatically converted into automation, I feel it helped reduce the resistance.  
-> Even if they would lose their job as a result of sharing knowledge, at least they would learn Robot Framework with Python.
+> The tree analogy reminds me of [the cart with square wheels comic](https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white/)  .
 >
+> Questions I asked:
+> 1. Is the test automation stable? Are the environments?
+> 2. Are there work-standards for writing tests? Are they effective, can someone execute tests written by someone else? Can you pair up basically.
+> 
+> How to free-up the time of an [overburdened tester who's busy][11]? One way is by adhering to standards.  
+> If I wanted those who were free to be able to swarm to reduce the load on one tester, there had to be a test writing standard that would allow this.
+> Other times, a non-SME would use Robot-Framework to automate the tasks for a SME.
+> This is where the ubiquitous language came in; it was to [standardize work][3].  
+>
+> Finding an overburdened tester is easy, they'll be falling behind schedule.
 > The overburden caused by lack of safety to me was psychological safety.  
-> Some testers increased the scope of their testing if they didn't find enough bugs.  
-> There was this culture that the good testers find bugs.  
-> So if someone didn't find any bugs, they felt they need to fill their bugs found quota.  
-> This was easy for me, I just told them I didn't care about finding bugs because quality can't be inspected in.  
-> I wonder how many QA directors/managers/leaders actually realise that?  
-> After I left, I'm told, they were told to record how many tests they ran everyday and what percentage they automated.  
-> I'm told this instruction from the top, like the C-suite but without any explanation why.
+> There was this culture that the good testers find bugs and so they'd keep increasing the scope of testing till they found some.
+> Only management (I) could tell them to stop.  
 
 # Reducing Fluctuations
 
@@ -124,22 +111,15 @@ If it's not gone, restart the PDCA.
 
 > **Note:**  
 > Stabilizing the fluctuations by standardizing work to me was different from reducing them through PDCA.  
-> He uses the analogy of the car engine later but you want to have a reliable engine before you have a high-performing one.  
 > Standardizing didn't need me to change anything like the PDCA cycles did.  
 > The former was easier than the latter because introducing something new has more resistance to it.
 >
-> So the goal was to reduce common cause variation.  
+> To me the first goal was to reduce common cause variation.  
 > At the company I worked, they had a 6 step version of the PDCA so I used that.  
 > If I remember correctly, the first step would be go to the [Gemba][4].  
-> Another one of the steps was Plan split into two or something like that.
->
+> Another one of the steps was Act split into two or something like that.
 > Each week I met with everyone on my team for 1:1 to ask what's bugging them so we can fix it.   
 > Together we'd come up with an [Kaizen][5] which was either a [Jidoka][6] or a [Poka-Yoke][7].  
-> Rarely did anyone come up with an improvement that didn't need my support as the manager.  
-> I'd then prioritise which improvements would have the biggest impact for the team and work on those.  
-> Though step 1 was initiatied during the 1:1, the remaining 4 happenned throughout the week through Slack conversations.  
-> Step 6 was a weekly/monthly/quarterly review of all changes to the process depending on the impact of the change.  
-> The company also recommend the use of SMART goals for the quarterly goals so we used that for each improvement.
 
 # Pull Systems
 
@@ -164,27 +144,12 @@ Ideally you want to have a long replenishment time divided by short takt time bu
 At some point you will run out and then start fire-fighting with rush orders etc.
 
 > **Note:**  
-> This is about using kanban bins (git commits) to manage made to stock.  
-> What's the stock here? Unexecuted test cases. The tester is ahead of the dev writing test cases.  
-> They need enough to keep the developer busy but don't need to create millions of extra test cases if the developer will never get to them.  
-> Instead of orders or hinges, I was working with test cases/stories/scenarios.  
-> Since the tests were driving the development, imagine each batch of scenarios as requisitions for code to be created.  
+> This is about using [kanban bins (git commits)][9] to manage made to stock.  
+> What's the stock here? Instead of orders or hinges, I was working with test cases/stories/scenarios.  
+> Each bin held a set of tests.
 > As explained in the [just in time][8] section, the testers aimed to produce enough test cases for a developer so they could code for at least a day.  
 > They had to make enough test cases for the day and even the next day in case something came up and they couldn't work that day etc.  
-> We didn't make [Kanban cards][9] for each daily chunk of test cases.  
-> Instead the bucket/bin was the git commit.   
-> I taught the testers to amend their git commits and only when they had the next batch of tests, they would push it.  
-> I was aiming for Continuous Delivery and Trunk Based development
->
-> This is why my testers had to get a head start.  
-> The developers would do their initial analysis while my testers created some key test cases as they'd call it.  
-> Then with this lead of a few days of tests for developers to run, they'd replenish one per day.  
-> Developers then could keep doing a fetch and only merge with the next git commit and work on those tests.  
-> I think some developers just did a pull but that was ok since there would only be 1 git commit added each day.  
-> Why did I care about this? Well, what I didn't want to have is failing tests all the time.  
-> Let's say the tester is a little ahead, then you'd never see all the test suites pass.  
-> This isn't great for TBD, your pipeline would never complete successfully.  
-> I wanted the developer and tester to learn to synchronise (reduce variation/fluctuation)
+> If the developer was moving fast, they'd do overtime and relax the next day. This was mitigated with a head-start to create a buffer.
 
 # CONWIP
 
@@ -211,25 +176,20 @@ For that system to work, we need a pool, a funnel of work waiting so when the ca
 If there's no orders, you have the problem anyways of people idling, pull system or not.
 
 > **Note:**  
-> I see my QA team working on features as a made to order process.  
-> That is, each feature they worked on is new.  
-> While each feature worked on some re-usable business rule, that combination of business rules and modifications to it were new like introducing new soft-close slides to a cabinet's drawers.
->
 > What he describes here to me is the [Kanban board][9] that everyone uses where CONWIP is a WIP limit.  
-> I tried to set WIP limits, basically one feature per person and at most 1 production issue at any time.  
-> This helped by reducing the time context switching from one feature to another every day or multiple times in a day.  
-> The challenge was that we had a system where half the time is spent fixing production issues.  
-> That means that we needed to get information from the business users and so we spent quite a bit of time waiting so then we had to increase those WIP limits.   
-> The scope of my system was the QA inspection process and things like code coming in or information from business users about production issues were just seeing as orders from customers with a high degree of fluctuation.
+> I see my QA team working on features as a made to order process because like a custom kitchen, no two were the same.
+> That said, some of the internal processes were treated as made to stock.
+>
+> I tried to set strict WIP limits, basically one feature per person and at most 1 production issue at any time.  
+> However we spent quite a bit of time waiting for information on the prod issues so then we had to increase those WIP limits.   
 
 # Levelling systems
 
 You have small and big kitchen orders for eg and you order parts, sometimes too many at once.
 This was seen with cars during COVID; there were no orders and then there was an avalanche.
 The suppliers weren't happy because they had all the parts but no orders and then they had orders but no parts and had the costs of expediting the ramp up.
-Sooner or later, the customer pays for the expedited costs.
 
-A pull system doesn't improve or prevent fluctuation, but prevents it from becoming worse because the CONWIP as a limiter reduces the effect.
+A pull system doesn't improve or prevent fluctuation, but prevents it from becoming worse because the CONWIP acting as a limiter reduces the effect.
 By limiting the number of projects in progress, you make it more predictable to see how long it takes to do the project.
 If the project quantity fluctuates from 5 to 50, your lead time also fluctuates and that makes it harder to predict.
 
@@ -244,7 +204,7 @@ Different ways to do levelling.
 
 1. Make the same number everyday. 
 275 crankshafts every day, more than 10% change from month to month, this is a daily production plan and it's difficult.
-The Germans try to do it a sucky way, they have a monthly pattern rather than alternating.
+The Germans have a monthly pattern rather than alternating.
 The problem is you stick to a plan for the whole month which is hard since most companies can't do today what they planned yesterday.
 
 2. Easier is to mix them to the smallest possible lot size, ideally 1 which isn't always possible. 
@@ -270,7 +230,7 @@ This only works if you have a pattern you can stick with.
 > Eventually it kind of worked out that 4 days were spent on a feature and 1 day on a prod bug each week.
 
 [1]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muda
-[2]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/SPC
+[2]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Mura
 [3]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Standardized%20Work
 [4]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Gemba
 [5]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kaizen
@@ -279,4 +239,5 @@ This only works if you have a pattern you can stick with.
 [8]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Just%20In%20Time
 [9]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kanban
 [10]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Heijunka
+[11]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muri
 
