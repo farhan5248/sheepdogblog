@@ -36,7 +36,7 @@ The people who know the fluctuations best are the ones on the shop-floor.
 >
 > Overburden was caused by having too many specialists and not enough generalists or full-stack testers.
 > This caused fluctuations in people's utilization in the form of the famine/feast cycles that sometimes appeared.
-> The 8 wastes that resulted are [described here][1]:
+> I mapped the 8 wastes to the QA inspection process [here][1]:
 >
 > Studying the fluctuations was where [SPC][2] came in; I wanted the process of inspection under statistical control. 
 > I wanted to reduce the occurrence of last minute high priority defects which have very little time to be fixed by devs and re-tested by my team.
@@ -54,7 +54,7 @@ If you're in a burning house, having a fire-fighter is nice but even better is t
 Rewarding only the fire-fighters can create career arsonists.
 Reward the fire-safety inspector as well.
 
-Overburden is a lack of safety.
+Overburden is a lack of safety; folks get hurt and then they slow down.
 First identify where are things going wrong, you'll need some sort of data
 Once you have data, do this
 1. Prioritize where to start.
@@ -73,20 +73,20 @@ Management needs to get rid of the cause.
 > 1. Is the test automation stable? Are the environments?
 > 2. Are there work-standards for writing tests? Are they effective, can someone execute tests written by someone else? Can you pair up basically.
 > 
-> How to free-up the time of an [overburdened tester who's busy][11]? One way is by adhering to standards.  
+> How to free-up the time of an [overburdened tester who's busy][11] with their own work or helping put out fires? One way is by adhering to standards.  
 > If I wanted those who were free to be able to swarm to reduce the load on one tester, there had to be a test writing standard that would allow this.
 > Other times, a non-SME would use Robot-Framework to automate the tasks for a SME.
-> This is where the ubiquitous language came in; it was to [standardize work][3].  
+> This is where the ubiquitous language came in; it was to [standardize work][3] and then reap the benefits.  
 >
 > Finding an overburdened tester is easy, they'll be falling behind schedule.
 > The overburden caused by lack of safety to me was psychological safety.  
-> There was this culture that the good testers find bugs and so they'd keep increasing the scope of testing till they found some.
-> Only management (I) could tell them to stop.  
+> There was this culture that the good testers find bugs and so they'd keep increasing the scope of testing till they found some afraid that not finding any reflected poorly on them.
+> Only management (I) could change that.  
 
 # Reducing Fluctuations
 
-You can't get rid of fluctuation, it can be reduced with PDCA. 
-In Western companies, it's little planning, lots of doing, then even less checking and acting.
+You can't get rid of fluctuation but it can be reduced with PDCA. 
+In Western companies, it's little planning, lots of doing, then even less checking and acting (sharing).
 
 At Toyota, there's huge emphasis on plan, way more than half. 
 They try to understand what's happening, with who, when. 
@@ -114,12 +114,10 @@ If it's not gone, restart the PDCA.
 > Standardizing didn't need me to change anything like the PDCA cycles did.  
 > The former was easier than the latter because introducing something new has more resistance to it.
 >
-> To me the first goal was to reduce common cause variation.  
-> At the company I worked, they had a 6 step version of the PDCA so I used that.  
-> If I remember correctly, the first step would be go to the [Gemba][4].  
-> Another one of the steps was Act split into two or something like that.
-> Each week I met with everyone on my team for 1:1 to ask what's bugging them so we can fix it.   
+> To me the first goal was to reduce common cause variation through PDCA cycles.
+> Each week [I met with everyone on my team for 1:1][4] to ask what's bugging them so we can fix it.   
 > Together we'd come up with an [Kaizen][5] which was either a [Jidoka][6] or a [Poka-Yoke][7].  
+
 
 # Pull Systems
 
@@ -136,20 +134,21 @@ Kanban is typically understood as a two bin system which is a system with two Ka
 1. If you get an empty bin, use the information to fill the bin.
 2. If you get a card, make what's on the card.
 
-How many bin you need depends on the replenishment time, how long to get the bin back.
+How many bins you need depends on the replenishment time, how long to get the bin back.
 You need 1 bin per day, if you can fill a bin in half a day, two bins are enough.
-If it takes 2 days to fill the bin, then after two days, you have a day without parts so you need 3 and for safety 4 bins.
+If it takes 2 days to fill the bin, then after two days, you have a day without parts so you need 3 and for safety maybe a 4th bin.
 The equation is replenishment time divided by takt time but don't take the average, take the extreme to be safe.
 Ideally you want to have a long replenishment time divided by short takt time but you don't want to have millions of hinges. 
-At some point you will run out and then start fire-fighting with rush orders etc.
+At some point you will run out and then it's OK to start fire-fighting with rush orders etc.
 
 > **Note:**  
 > This is about using [kanban bins (git commits)][9] to manage made to stock.  
-> What's the stock here? Instead of orders or hinges, I was working with test cases/stories/scenarios.  
-> Each bin held a set of tests.
+> What's the stock here? Instead of orders or hinges, it was unexecuted test cases/stories/scenarios.  
+> The goal is to keep the number commits on branches in git close to 1.
 > As explained in the [just in time][8] section, the testers aimed to produce enough test cases for a developer so they could code for at least a day.  
-> They had to make enough test cases for the day and even the next day in case something came up and they couldn't work that day etc.  
-> If the developer was moving fast, they'd do overtime and relax the next day. This was mitigated with a head-start to create a buffer.
+> They had to make enough test cases for the day and even the next day in case something came up and they couldn't work that day etc.
+> No inventory is the goal but with the dev managers and I having different priorities, we needed this buffer as a mitigation.
+> If the developer was moving fast, the testers would do overtime and relax the next day. 
 
 # CONWIP
 
@@ -178,7 +177,7 @@ If there's no orders, you have the problem anyways of people idling, pull system
 > **Note:**  
 > What he describes here to me is the [Kanban board][9] that everyone uses where CONWIP is a WIP limit.  
 > I see my QA team working on features as a made to order process because like a custom kitchen, no two were the same.
-> That said, some of the internal processes were treated as made to stock.
+> That said, some of the internal processes were treated as made to stock with git as the inventory management system.
 >
 > I tried to set strict WIP limits, basically one feature per person and at most 1 production issue at any time.  
 > However we spent quite a bit of time waiting for information on the prod issues so then we had to increase those WIP limits.   
@@ -220,14 +219,10 @@ It's like intentionally slowing down the flow rate by buffering for a smoother e
 This only works if you have a pattern you can stick with.
 
 > **Note:**  
-> When I think of levelling, the production issues come to mind.  
-> The usual feature work in the release was stable enough.  
-> As we removed sources of defects we had a pretty stable system of how we worked.  
-> However there'd still be times when the developers weren't ready or the BSA didn't finish writing the requirements documents.  
-> So we filled in these gaps in work with the production issues of which there were countless.  
-> Like he stated, we'd also increase our lead time. So even if we could typically write and execute tests for an issue in a week, we'd typically tell folks it'll be ready in a month.   
-> That way, if there was a slow day we could just work on a prod bug.  
-> Eventually it kind of worked out that 4 days were spent on a feature and 1 day on a prod bug each week.
+> When I think of [levelling][10], there's two types, levelling with new features and production bugs.  
+> The goal is to not have accumulation of untested code commits in git.
+> Put another way, for two features of the same size, you don't want to have two vastly different lead times as a result of working on them in sequence.
+
 
 [1]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muda
 [2]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Mura

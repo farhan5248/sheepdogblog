@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Books & Podcasts
-permalink: /books/
+permalink: /books
 ---
 
 These are some of the books I've read.
