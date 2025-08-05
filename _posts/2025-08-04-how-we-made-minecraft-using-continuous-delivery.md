@@ -9,7 +9,7 @@ categories: engineering-room
 
 # Summary
 
-Instead of summarizing by topic, I've added the timestamps/questions that Dave asked
+Instead of summarizing by topic, I've added the timestamps/questions that Dave asked. 
 A lot of what Henry describes is similar to what I experienced working with my QA team and the corresponding development team.
 
 # 3:07 What triggered your interest
