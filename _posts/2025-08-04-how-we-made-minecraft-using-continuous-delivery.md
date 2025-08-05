@@ -16,12 +16,13 @@ A lot of what Henry describes is similar to what I experienced working with my Q
 
 I was a developer and also found myself in a QA team.
 I joined with the intention of making the lives of developers easier by changing the QA team to focus on earlier, not faster feedback.
-When I stared on the QA team, I knew nothing about QA processes, half of which appeared to be [testing theatre](https://dannorth.net/blog/we-need-to-talk-about-testing/).
+When I started on the QA team, I knew nothing about QA processes.
+Later I found that half of which appeared to be [testing theatre](https://dannorth.net/blog/we-need-to-talk-about-testing/).
 
 # 4:56 It takes a long time to find and fix things
 
 The benefit adjudication engine was fairly complex.
-When a mistake was made a low level, it would take a long time for the QA team to identify where the issue was so that they could assign the bug to the right person.
+When a mistake was made at a low level, it would take a long time for the QA team to identify where the issue was so that they could assign the bug to the right person.
 Then the developer had to setup all the data to try and test it which would take them a while.
 What my QA team did for them in the end was make it easier for them to recreate the setup data in their dev environment.
 If a defect was found later on in the QA environment, it was more likely that the source was one of the less complex components.
@@ -40,7 +41,7 @@ When I replied that it was what I wanted, she looked like she was thinking "you 
 
 What was interesting is that my testers had a lot of knowledge about the system and some of them were very highly respected.
 What worked really well was where my QA and the COBOL dev silos were bridged and they worked well together.
-The other 3 QA teams I had had no such luck and so even with the same tools, we couldn't improve as much.
+The other 3 QA teams of mine had no such luck and so even with the same tools, we couldn't improve as much.
 
 # 11:04  Having professional test people
 
@@ -99,7 +100,7 @@ We'd then work on the edge of this reduced system and inject data via its file u
 
 At the time I didn't know what approval testing was but I think my testers did something like it.
 When they worked with developers in the lowest environment, they'd make a test, and then run it.
-Though the test had some assertions, they'd see if what the code did matched it and if it didn't, they would have updated the assertion.
+Though the test had some assertions, they'd see if what the code did match it and if it didn't, they would have updated the assertion.
 The reason for this is because some of the math was really complex and depending on where the rounding would take place in the system you'd get false failures.
 
 # 26:26 Impact of testing on performance
@@ -108,7 +109,7 @@ This made me think of test automation performance.
 When I joined the QA team, the COBOL testers used to run test automation for new features only at the end of the manual testing cycle.
 Their automation would submit all the claims and then extract all the response from a database table.
 When I suggested running each test and its assertions, folks hesistated thinking it would take them longer and slow them down.
-The reality is that it did, it was twice as slow tbh. 
+The reality is that it did, it was twice as slow tbh; instead of 5, it would take 10 minutes etc.
 The trade-off was that it could be run more frequently with the possibility of one test being executed at a time.
 
 # 30:30 How to change the development culture
@@ -116,7 +117,7 @@ The trade-off was that it could be run more frequently with the possibility of o
 It's a prerequisite that devs want to run the tests.
 They don't need to even automate it, my enabling/platform team would help with that.
 I waited for a developer that really wanted to and he became the tip of the spear.
-Once he felt good and shared his positive experiences, only then would I approach others.
+Once he felt good and shared his positive experiences, only then did I approach others.
 Whatever tools we used had to make it easy.
 So if they were using a CPHA3 simulator that was homegrown, I started with that.
 I didn't try to sell them on SoapUI or Cucumber etc, that came later.
@@ -126,8 +127,8 @@ I didn't try to sell them on SoapUI or Cucumber etc, that came later.
 My test automation developers eventually stopped automating tests.
 They worked on the platform that let developers and testers auto-generate tests in whatever tools they were using.
 They also worked on coaching and upgrading the manual testers.
-We made it less work for the developer to run the test than not run the tests.
-In fact as more time went by, and I learnt how the developers worked, I had a bias to make it easier for them to run the tests than my own testers.
+We made it less work for the developer to run the test than not run the tests (find and fix defects).
+In fact as more time went by, and I learnt how the developers worked, I had a bias to make it easier to run the tests for them instead of my own testers.
 
 # 35:13 Test framework constraints
 
