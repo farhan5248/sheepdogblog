@@ -156,7 +156,7 @@ Later they moved to SoapUI and then Cucumber.
 
 # 45:53 The problem with unit tests
 
-How to write units tests without letting the whole system run? Well you let the whole system run as described [above](#technical-barrier-to-automated-testing-adoption).
+How to write units tests without letting the whole system run? Well you let the whole system run as described [above](#1630-technical-barrier-to-automated-testing-adoption).
 One of the constraints of this approach is that we'd have leaky tests if we ran them concurrently.
 Everything was run sequentially as a result which could take several hours.
 Thankfully most legacy suites ran in a few minutes and by the time we got to Cucumber we were running individual tests in fractions of a second.
@@ -203,7 +203,7 @@ The problem is when you want really low level tests, it's no longer a trans-lite
 You can attempt it but then the code that creates the automation becomes really hard to understand which adds its own complexity and therefore sources of bugs.
 Admittedly I don't have as many [plain solitary unit][4] tests as I'd like.
 
-I mentioned [earlier](#test-framework-constraints) that I preferred we left Cucumber.
+I mentioned [earlier](#3513-test-framework-constraints) that I preferred we left Cucumber.
 One thing I had experimented with is letting the team write .feature files and I extended the language.
 That is, in our xtext editor allowed for a .feature file to have a Step-Object keyword followed by Step Definition, Step Parameter etc.
 I was continually trying to make writing the test case as easy as possible.
@@ -255,7 +255,7 @@ They even [tried to get them to stop it][8].
 I think it's because folks weren't comfortable with the idea that the QA team wasn't the last to touch the code.
 This place was [pathological][9], if there were problems in production, QA was asked why didn't you test that.
 With QA no longer running the tests, and the developers taking a bigger role, that wasn't going to fly.
-I also mentioned that my boss's boss didn't like me much and neither did [my boss's peers](#cultural-barrier-to-automated-testing-adoption)
+I also mentioned that my boss's boss didn't like me much and neither did [my boss's peers](#1524-cultural-barrier-to-automated-testing-adoption)
 I think the usual push back of there's no money for this didn't apply since we didn't need it.
 The other push back of are we doing development wrong also didn't work because the developers willingly and enthusiastically adopted it.
 Everyone just wanted things to stay the same; all the lean stuff was really foreign to the culture.
@@ -271,4 +271,4 @@ Everyone just wanted things to stay the same; all the lean stuff was really fore
 [9]: https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/
 [10]: https://deming.org/quotes/i-should-estimate-that-in-my-experience-most-troubles-and-most-possibilities-for-improvement-add-up-to-the-proportions-something-like-this94-belongs-to-the-system-responsibility-of-management6-sp-3/
 [11]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Gravity%20Slingshot
-[12]: /sheepdogblog/jekyll/update/2025/07/24/creating-pull-in-your-factory
+[12]: /sheepdogblog/shop-floor/2025/07/24/creating-pull-in-your-factory
