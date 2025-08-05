@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating pull in your factory"
-date:   2025-07-24 21:00:00 -0500
+date:   2025-07-24
 categories: shop-floor
 ---
 
