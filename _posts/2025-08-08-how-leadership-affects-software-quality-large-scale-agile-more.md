@@ -10,7 +10,7 @@ categories: engineering-room
 # Summary
 
 I liked this episode for the same reason I liked the one with Henry Golding.
-Gary's experiences though of avoiding buzzwords to transform an organisation more closely resembles the approach I took.
+Gary's experiences and avoidance of buzzwords to transform an organisation more closely resembles the approach I took.
 
 # 2:28 Leading a complex adaptive system
 
@@ -41,6 +41,7 @@ I wanted the same thing but for QA tests; I described my approach to doing so by
 
 # 17:47 The role of effective leadership
 
+I tried to implement [Dr Deming's 14 points][10] for management.
 The system was a legacy tightly coupled system where you have to release the software together. 
 The single sign-off required the work of almost 60 QA team members.
 The biggest sources of inefficiency were across the team because of the waterfall process and big batches of work.
@@ -82,7 +83,7 @@ At most he thought QA needed to do better because you know, quality is always in
 Him having a PMO agressively defend waterfall and working with big batches wasn't the problem ;)
 
 Just as people would argue with him till the cows came home about TBD, I avoided buzzwords.
-My recommended approach is simple, use a process control chart, keep looking for common cause variation and remove it through PDSA.
+My recommended approach is simple, use a process control chart to study the time it takes to resolve a test failure, keep looking for common cause variation and remove it through PDSA.
 The reason for developing the testing platform was so that developers could organically opt into new ways of working that progressively gave them more feedback earlier.
 Before that though, my testers had to change as well, which is why we had our internal enabling team.
 
@@ -100,16 +101,16 @@ Had the momentum continued, we would have been able to do Continuous Delivery wi
 This was possible with this particular system because almost all functionality was controlled by feature flags.
 
 Because the architecture was outside of my scope of control and the architecture team was the ivory tower type, waiting for micro-services to help solve testing challenges wasn't an option.
-There was lots of low hanging fruit that I could go after first simply by identifying and removing waste 
+There was lots of low hanging fruit that I could go after first simply by identifying and removing waste.
 In fact my whole strategy didn't need any team outside my own to change.
 Let's say the COBOL developers didn't change.
 Then to reduce the waste of incorrect test cases, I'd have invested in model based testing which lets you generate thousands of test cases in a few minutes.
 
 # 1:06:30 AI
 
-When I joined the QA team, I too was trying to answer how to move forward in an org that has lots of manual testing?
+When I joined the QA team, I too was trying to answer how to move forward in an org that has lots of manual testing.
 Fully automating the system tests wasn't done and instead we focused on unit tests for the most complex component.
-We got there by working in small batches and working with developers to prevent defects rather than automate inspecting for them.
+We got there by working in small batches and working with developers to prevent defects rather than automate inspection for them.
 Eventually we'd be able to remove manual testing as a quality gate.
 
 I think AI can help accelerate that process.
@@ -120,8 +121,7 @@ Instead I'd use AI to help develop the regular expression for the DSL grammar or
 Both of these are what I'm currently working on.
 2. As a leader, I had also used an AI Slack integration to help answer questions.
 Because I wanted an organic adoption of our new ways of working, I wanted the team to ask questions in a safe space.
-For example I thought they might be embarrased to ask a question thinking it was dumb or thinking they'd be added to a list of head-count saving opportunities if they did so.
-
+For example I thought they might be embarrased to ask a question thinking it was dumb or thinking they'd be added to a list of head-count saving opportunities if they did so openly.
 
 [1]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/ShuHaRi
 [2]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Culture%20of%20Easy%20Ownership
@@ -132,3 +132,4 @@ For example I thought they might be embarrased to ask a question thinking it was
 [7]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Start%20With%20Why
 [8]: /demingdriventesting/about
 [9]: /demingdriventesting/about#the-ubiquitous-language
+[10]: /demingdriventesting/Deming/points
