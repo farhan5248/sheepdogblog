@@ -67,7 +67,7 @@ You can actually notice but it doesn't mean you can make the connection about wh
 Management needs to get rid of the cause.
 
 > **Note:**  
-> The tree analogy reminds me of [the cart with square wheels comic](https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white/)  .
+> The tree analogy reminds me of [the cart with square wheels comic][12]  .
 >
 > Questions I asked:
 > 1. Is the test automation stable? Are the environments?
@@ -235,4 +235,5 @@ This only works if you have a pattern you can stick with.
 [9]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kanban
 [10]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Heijunka
 [11]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muri
+[12]: https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white/
 
