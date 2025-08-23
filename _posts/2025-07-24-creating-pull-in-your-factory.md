@@ -224,16 +224,16 @@ This only works if you have a pattern you can stick with.
 > Put another way, for two features of the same size, you don't want to have two vastly different lead times as a result of working on them in sequence.
 
 
-[1]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muda
-[2]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Mura
-[3]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Standardized%20Work
-[4]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Gemba
-[5]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kaizen
-[6]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Jidoka
-[7]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Poka%20Yoke
-[8]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Just%20In%20Time
-[9]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kanban
-[10]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Heijunka
-[11]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muri
+[1]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muda
+[2]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Mura
+[3]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/standardized-work
+[4]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Gemba
+[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Jidoka
+[7]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/poka-yoke
+[8]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/just-in-time
+[9]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kanban
+[10]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Heijunka
+[11]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muri
 [12]: https://www.linkedin.com/pulse/thanks-we-too-busy-daniel-white/
 

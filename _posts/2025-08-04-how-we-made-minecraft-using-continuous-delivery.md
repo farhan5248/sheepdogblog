@@ -259,17 +259,17 @@ I think the usual push back of there's no money for this didn't apply since we d
 The other push back of are we doing development wrong also didn't work because the developers willingly and enthusiastically adopted it.
 Everyone just wanted things to stay the same; all the lean stuff was really foreign to the culture.
 
-[1]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Start%20With%20Why
-[2]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/The%20Neo%20Nurture%20Incubator
-[3]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Poka%20Yoke
+[1]: /demingdriventesting/communicating-the-strategy-to-qa/start-with-why
+[2]: /demingdriventesting/communicating-the-strategy-to-qa/the-neo-nurture-incubator
+[3]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/poka-yoke
 [4]: https://martinfowler.com/articles/microservice-testing/
-[5]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Kaizen
-[6]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/Muri
-[7]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Coach%20Teams%20Not%20Individuals
-[8]: /demingdriventesting/Recipe%20for%20next%20time/Motivation
+[5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
+[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muri
+[7]: /demingdriventesting/communicating-the-strategy-to-qa/coach-teams-not-individuals
+[8]: /demingdriventesting/recipe-for-next-time/Motivation
 [9]: https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/
 [10]: https://deming.org/quotes/i-should-estimate-that-in-my-experience-most-troubles-and-most-possibilities-for-improvement-add-up-to-the-proportions-something-like-this94-belongs-to-the-system-responsibility-of-management6-sp-3/
-[11]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Gravity%20Slingshot
+[11]: /demingdriventesting/communicating-the-strategy-to-qa/gravity-slingshot
 [12]: /sheepdogblog/shop-floor/2025/07/24/creating-pull-in-your-factory
 [13]: https://dannorth.net/blog/we-need-to-talk-about-testing/
 [14]: https://www.youtube.com/watch?v=EZ05e7EMOLM

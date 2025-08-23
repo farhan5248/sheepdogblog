@@ -123,13 +123,13 @@ Both of these are what I'm currently working on.
 Because I wanted an organic adoption of our new ways of working, I wanted the team to ask questions in a safe space.
 For example I thought they might be embarrased to ask a question thinking it was dumb or thinking they'd be added to a list of head-count saving opportunities if they did so openly.
 
-[1]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/ShuHaRi
-[2]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Culture%20of%20Easy%20Ownership
-[3]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Gravity%20Slingshot
+[1]: /demingdriventesting/communicating-the-strategy-to-qa/shuhari
+[2]: /demingdriventesting/communicating-the-strategy-to-qa/culture-of-easy-ownership
+[3]: /demingdriventesting/communicating-the-strategy-to-qa/gravity-slingshot
 [4]: /sheepdogblog/shop-floor/2025/07/24/creating-pull-in-your-factory
-[5]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Coach%20Teams%20Not%20Individuals
-[6]: /demingdriventesting/Migrating%20from%20defect%20inspection%20to%20prevention/index
-[7]: /demingdriventesting/Communicating%20the%20strategy%20to%20QA/Start%20With%20Why
+[5]: /demingdriventesting/communicating-the-strategy-to-qa/coach-teams-not-individuals
+[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/index
+[7]: /demingdriventesting/communicating-the-strategy-to-qa/start-with-why
 [8]: /demingdriventesting/about
 [9]: /demingdriventesting/about#the-ubiquitous-language
-[10]: /demingdriventesting/Deming/points
+[10]: /demingdriventesting/deming/points
