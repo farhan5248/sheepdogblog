@@ -231,13 +231,13 @@ In order to create empathy for the dev side of things, I slowly tried to get the
 An example was having them understand the value of earlier feedback and how without it, there's more mistakes and rework like they experienced with writing tests.
 I had the same QA team as their long time manager yet things were markedly better when I managed the team.
 The difference was that it wasn't the people but the [system within which they work][10].
-I was simply applying my novice level understanding of Dr Deming's 14 points and SoPK.
+I was simply applying my novice level understanding of [Dr Deming's 14 points][18] and [SoPK][19].
 
 # 1:10:38 What value does this produce
 
 I took a lean or continuous improvement approach for reasons I explained [here][11].
 I described this process in this [blog post][12], basically I never needed a budget because of the small steps are removing rather than adding.
-The goal was to reduce the waste after identifying the overburden that caused the fluctuation or in lean terms, reduce muda after identifying muri that caused the mura.
+The goal was to reduce the waste after identifying the overburden that caused the fluctuation or in lean terms, reduce [muda][20] after identifying [muri][6] that caused the [mura][22].
 The metrics that showed things were getting better were QA execution time or defect remediation time or test automation creation time; everything went down.
 Test automation coverage went up and so did developer and tester utilization.
 I also agree that the moral argument isn't the way to go. 
@@ -264,7 +264,7 @@ Everyone just wanted things to stay the same; all the lean stuff was really fore
 [3]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/poka-yoke
 [4]: https://martinfowler.com/articles/microservice-testing/
 [5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
-[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Muri
+[6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/muri
 [7]: /demingdriventesting/communicating-the-strategy-to-qa/coach-teams-not-individuals
 [8]: /demingdriventesting/recipe-for-next-time/Motivation
 [9]: https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/
@@ -276,3 +276,7 @@ Everyone just wanted things to stay the same; all the lean stuff was really fore
 [15]: #1630-technical-barrier-to-automated-testing-adoption
 [16]: #3513-test-framework-constraints
 [17]: #1524-cultural-barrier-to-automated-testing-adoption
+[18]: /demingdriventesting/deming/points
+[19]: /demingdriventesting/deming/sopk
+[20]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/muda
+[22]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/mura
