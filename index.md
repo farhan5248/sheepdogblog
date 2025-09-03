@@ -17,7 +17,7 @@ Each episode includes detailed notes connecting the content to QA transformation
 3. [How we made Minecraft using Continuous Delivery][4]: Practical application of continuous delivery principles in large-scale software development
 
 [1]: /demingdriventesting/
-[2]: /sheepdogblog/shop-floor/2025/07/24/creating-pull-in-your-factory.html
-[3]: /sheepdogblog/engineering-room/2025/08/08/how-leadership-affects-software-quality-large-scale-agile-more.html
-[4]: /sheepdogblog/engineering-room/2025/08/04/how-we-made-minecraft-using-continuous-delivery.html
+[2]: /sheepdogblog/shop-floor/2025/07/24/creating-pull-in-your-factory
+[3]: /sheepdogblog/engineering-room/2025/08/08/how-leadership-affects-software-quality-large-scale-agile-more
+[4]: /sheepdogblog/engineering-room/2025/08/04/how-we-made-minecraft-using-continuous-delivery
 
