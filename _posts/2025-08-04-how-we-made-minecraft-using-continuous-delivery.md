@@ -266,7 +266,7 @@ Everyone just wanted things to stay the same; all the lean stuff was really fore
 [5]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/Kaizen
 [6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/muri
 [7]: /demingdriventesting/communicating-the-strategy-to-qa/coach-teams-not-individuals
-[8]: /demingdriventesting/recipe-for-next-time/Motivation
+[8]: /specificationbyprompt/how-to-bake-a-change/motivation
 [9]: https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/
 [10]: https://deming.org/quotes/i-should-estimate-that-in-my-experience-most-troubles-and-most-possibilities-for-improvement-add-up-to-the-proportions-something-like-this94-belongs-to-the-system-responsibility-of-management6-sp-3/
 [11]: /demingdriventesting/communicating-the-strategy-to-qa/gravity-slingshot
