@@ -41,4 +41,4 @@ The episodes I select often feature practitioners sharing their direct experienc
 
 These podcasts became my informal advisory board - offering practical wisdom from people who'd solved similar problems in different contexts. They provided both the confidence to try unconventional approaches and the frameworks to explain why those approaches made sense.
 
-[1]: /sheepdogblog/books/
+[1]: /books/
