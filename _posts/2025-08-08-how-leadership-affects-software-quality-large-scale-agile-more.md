@@ -138,5 +138,5 @@ For example I thought they might be embarrased to ask a question thinking it was
 [6]: /demingdriventesting/migrating-from-defect-inspection-to-prevention/index
 [7]: /demingdriventesting/communicating-the-strategy-to-qa/start-with-why
 [8]: /demingdriventesting/about
-[9]: /specificationbyprompt/walkthrough-of-tools/ubiquitous-language
+[9]: /specificationbyprompt/architecture-and-capabilities/ubiquitous-language
 [10]: /demingdriventesting/deming/points
